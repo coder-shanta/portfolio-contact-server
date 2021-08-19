@@ -29,7 +29,11 @@ route.post('/send',async (ctx, next) => {
         message: {
             presence: {
                 allowEmpty: false
-            }
+            },
+            length: {
+                minimum: 50,
+                maximum: "Message must be at least 50 characters"
+    }
         }
     };
 
