@@ -1,0 +1,12 @@
+GET http://localhost:3000
+
+### Send Email
+POST http://localhost:3000/mail/send HTTP/1.1
+Content-Type: application/json
+
+{
+    "subject": "Hello World",
+    "name": "Hacker",
+    "email": "asaadasd@gmail.com",
+    "message": "This is text Mwssag d fsdfjsdf j sgafsd fgajs dgas df sadf jsdgjfg jgjksg fjsdfj ahsd fnsda vfsadfb sdanf msbdvfsdvfmasm dkf sdf sdfsdj fb asdjvf sa vfasdfvsd sdf sdf d dj sdfbsdhfjdfj sjj"
+}

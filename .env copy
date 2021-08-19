@@ -1,0 +1,6 @@
+PORT = 3000
+
+SMTP_EMAIL = example@gmail.com
+SMTP_PASS = example.password
+
+TO_MAIL = example@gmail.com
