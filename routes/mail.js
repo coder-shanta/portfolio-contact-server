@@ -12,17 +12,20 @@ route.post('/send',async (ctx, next) => {
 
     const constraints = {
         name: {
-            presence: true
+            presence: true,
+            allowEmpty: false
         },
         email: {
             presence: true,
-            email: true
+            email: true,
         },
         subject: {
-            presence: true
+            presence: true,
+            allowEmpty: false
         },
         message: {
-            presence: true
+            presence: true,
+            allowEmpty: false
         }
     };
 
